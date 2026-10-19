@@ -3,11 +3,11 @@
 A guard that verifies People's tokens, the SDK wired into the container, a command
 that keeps identities current, and a fake for your tests.
 
-Built on [`okitechnologies/people-php`](../people-php) — read its README for what People
+Built on [`oki-technologies/people-php`](../people-php) — read its README for what People
 is and what each call checks.
 
 ```bash
-composer require okitechnologies/people-laravel
+composer require oki-technologies/people-laravel
 php artisan vendor:publish --tag=people-config
 ```
 

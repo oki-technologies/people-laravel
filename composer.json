@@ -1,7 +1,14 @@
 {
-    "name": "okitechnologies/people-laravel",
+    "name": "oki-technologies/people-laravel",
     "description": "Sign people in with People, verify their tokens and keep their identities current — in Laravel, with a guard, a sync command and a test fake.",
-    "keywords": ["laravel", "oauth2", "openid-connect", "oidc", "jwt", "identity"],
+    "keywords": [
+        "laravel",
+        "oauth2",
+        "openid-connect",
+        "oidc",
+        "jwt",
+        "identity"
+    ],
     "type": "library",
     "license": "MIT",
     "require": {
@@ -11,22 +18,13 @@
         "illuminate/console": "^11.0 || ^12.0 || ^13.0",
         "illuminate/http": "^11.0 || ^12.0 || ^13.0",
         "illuminate/support": "^11.0 || ^12.0 || ^13.0",
-        "okitechnologies/people-php": "^0.1 || @dev"
+        "oki-technologies/people-php": "^1.0"
     },
     "require-dev": {
         "orchestra/testbench": "^9.0 || ^10.0 || ^11.0",
         "pestphp/pest": "^3.0 || ^4.0",
         "phpstan/phpstan": "^2.0"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "../people-php",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Oki\\People\\Laravel\\": "src/"
@@ -54,6 +52,6 @@
             "pestphp/pest-plugin": true
         }
     },
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "prefer-stable": true
 }
